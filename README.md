@@ -1,3 +1,17 @@
+# Fork Comment
+
+This fork implements https://github.com/typicode/json-server/pull/558 on the latest v0 version. Use as such: 
+
+```
+GET    /posts?q=search-text&attr=fieldName1,fieldName2,fieldName3,etc
+```
+This will only include the fields specified in the attr query parameter when doing the full search. This is useful to exclude ids and such in queries.
+To install: 
+```
+npm i notPlancha/json-server#v0
+```
+Enjoy the rest of the readme.
+
 # JSON Server [![Node.js CI](https://github.com/typicode/json-server/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/typicode/json-server/actions/workflows/node.js.yml)
 
 Get a full fake REST API with __zero coding__ in __less than 30 seconds__ (seriously)
